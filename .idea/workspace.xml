@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day02/DayTwoPartTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day02/day2asolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/day2asolve.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day02/day2bsolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/day2bsolve.kt" afterDir="false" />
     </list>
@@ -38,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DayTwoPartTwo.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
