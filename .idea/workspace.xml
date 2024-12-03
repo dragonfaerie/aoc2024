@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day03/day3asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/day3bsolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/day3input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/day2asolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/day2asolve.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/day2bsolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/day2bsolve.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -30,7 +33,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2pciZuE6lsLzZcvnV81hLyjCF9C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,11 +47,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day02"
+    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day03"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day03" />
       <recent name="$PROJECT_DIR$/src/day02" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/day01" />
