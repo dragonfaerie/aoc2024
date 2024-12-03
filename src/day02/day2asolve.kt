@@ -2,7 +2,6 @@ package day02
 
 import java.io.File
 
-
 fun day2parta() {
     val fileName = "/Users/kit/Documents/code/aoc2024/src/day02/day2input"
 //    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"

@@ -4,6 +4,6 @@ import day02.day2parta
 import day02.day2partb
 
 fun main() {
-//    day2parta()
+    day2parta()
     day2partb()
 }
