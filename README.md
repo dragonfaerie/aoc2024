@@ -5,6 +5,8 @@
 **Day 1**: This day was weirdly easy. <br><br>
 **Day 2**: Struggled hard with day 2 part 2 for some reason.  Managed to brute force it into working and using those results to submit to AoC.  I then spent some quality time with chatGPT to refine and analyze to understand why I was flailing so much.  So, good learning if not very efficient for AoC standards.<br><br>
 **Day 3**: Found a handy regex tester and hint generator as I've not done a ton of regex.  Relied on a bunch of google searching to figure out how to work with the regex but was ultimately successful.
+**Day 4**: Had a half built wandering through the trees routine from a few years ago, brought that in and managed to get it to work.  Had some dumb moments doing it as always.
+
 
 
 

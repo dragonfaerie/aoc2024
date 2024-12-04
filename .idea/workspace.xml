@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day03/day3asolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/day3bsolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/day3input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/day4asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/day4bsolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/day4input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
