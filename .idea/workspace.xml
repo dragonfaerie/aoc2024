@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day04/day4asolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/day4bsolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/day4input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/day5asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/day5java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exampledata2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
@@ -20,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +47,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day03"
+    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day03",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
