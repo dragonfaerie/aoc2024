@@ -32,7 +32,7 @@ fun day6parta() {
         // Calculate the next position
         val nextRow = currentRow + directions[currentDirectionIndex].first
         val nextCol = currentCol + directions[currentDirectionIndex].second
-
+        moves ++
         // Check bounds
         if (nextRow !in 0 until maxLines || nextCol !in 0 until maxWidth) {
             println("Exited board at $currentRow, $currentCol after $moves moves")
@@ -44,17 +44,16 @@ fun day6parta() {
             // Valid move
             currentRow = nextRow
             currentCol = nextCol
-            moves++
             println("Moved to: $currentRow, $currentCol (Total moves: $moves)")
         } else {
             // Obstacle, turn right
             currentDirectionIndex = (currentDirectionIndex + 1) % directions.size
+            moves --
             numObstacles ++
             println("Turned right at obstacle at $nextRow, $nextCol. Now facing: ${directions[currentDirectionIndex]}")
         }
     }
 
-    println(numObstacles)
     println("Final Position: $currentRow, $currentCol")
-    println("Moves: $moves")
+    println(moves - (numObstacles / 2))
 }
