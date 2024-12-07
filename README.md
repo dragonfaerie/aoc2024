@@ -12,7 +12,7 @@ searching to figure out how to work with the regex but was ultimately successful
 **Day 4**: Had a half built wandering through the trees routine from a few years ago, brought that in and managed to 
 get it to work.  Had some dumb moments doing it as always.<br><br>
 **Day 5**: Struggled hhharrrrrrrrrrrrddd, found some kinda related ideas in Java, swapped to that, got it to work.  Not 
-sure I completely understand.<br>br>
+sure I completely understand.<br><br>
 **Day 6**: Failed today. <br><br>
 
 
