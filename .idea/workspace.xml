@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day05/day5asolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/day5java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampledata2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/day6asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/day6input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/day5both.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/day5both.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DayTwoPartTwo.executor": "Run",
+    "Application.day5java.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
