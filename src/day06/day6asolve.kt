@@ -3,8 +3,8 @@ package day06
 import java.io.File
 
 fun day6parta() {
-//    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
-    val fileName = "/Users/kit/Documents/code/aoc2024/src/day06/day6input"
+    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
+//    val fileName = "/Users/kit/Documents/code/aoc2024/src/day06/day6input"
     val file = File(fileName)
     val content: List<String> = file.readLines()
 
@@ -23,8 +23,7 @@ fun day6parta() {
     var currentDirectionIndex = 0
     var currentRow = startPosition.keys.first()
     var currentCol = startPosition.values.first()
-    var moves = 1
-    var numObstacles = 0
+    var moves = 0
 
     println("Start Position: $currentRow, $currentCol")
 
@@ -32,7 +31,7 @@ fun day6parta() {
         // Calculate the next position
         val nextRow = currentRow + directions[currentDirectionIndex].first
         val nextCol = currentCol + directions[currentDirectionIndex].second
-        moves ++
+
         // Check bounds
         if (nextRow !in 0 until maxLines || nextCol !in 0 until maxWidth) {
             println("Exited board at $currentRow, $currentCol after $moves moves")
@@ -44,16 +43,15 @@ fun day6parta() {
             // Valid move
             currentRow = nextRow
             currentCol = nextCol
+            moves ++
             println("Moved to: $currentRow, $currentCol (Total moves: $moves)")
         } else {
             // Obstacle, turn right
             currentDirectionIndex = (currentDirectionIndex + 1) % directions.size
-            moves --
-            numObstacles ++
             println("Turned right at obstacle at $nextRow, $nextCol. Now facing: ${directions[currentDirectionIndex]}")
         }
     }
 
     println("Final Position: $currentRow, $currentCol")
-    println(moves - (numObstacles / 2))
+    println("Moves: $moves")
 }
