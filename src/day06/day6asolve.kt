@@ -1,10 +1,9 @@
 package day06
 
 import java.io.File
-
 fun day6parta() {
-    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
-//    val fileName = "/Users/kit/Documents/code/aoc2024/src/day06/day6input"
+//    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
+    val fileName = "/Users/kit/Documents/code/aoc2024/src/day06/day6input"
     val file = File(fileName)
     val content: List<String> = file.readLines()
 
@@ -23,18 +22,21 @@ fun day6parta() {
     var currentDirectionIndex = 0
     var currentRow = startPosition.keys.first()
     var currentCol = startPosition.values.first()
-    var moves = 0
+    val visitedLocations = mutableSetOf<Pair<Int, Int>>() // Use a Set to track unique locations
 
     println("Start Position: $currentRow, $currentCol")
 
     while (true) {
+        // Record the current position as visited
+        visitedLocations.add(Pair(currentRow, currentCol))
+
         // Calculate the next position
         val nextRow = currentRow + directions[currentDirectionIndex].first
         val nextCol = currentCol + directions[currentDirectionIndex].second
 
         // Check bounds
         if (nextRow !in 0 until maxLines || nextCol !in 0 until maxWidth) {
-            println("Exited board at $currentRow, $currentCol after $moves moves")
+            println("Exited board at $currentRow, $currentCol after visiting ${visitedLocations.size} unique locations")
             break
         }
 
@@ -43,8 +45,7 @@ fun day6parta() {
             // Valid move
             currentRow = nextRow
             currentCol = nextCol
-            moves ++
-            println("Moved to: $currentRow, $currentCol (Total moves: $moves)")
+            println("Moved to: $currentRow, $currentCol")
         } else {
             // Obstacle, turn right
             currentDirectionIndex = (currentDirectionIndex + 1) % directions.size
@@ -52,6 +53,5 @@ fun day6parta() {
         }
     }
 
-    println("Final Position: $currentRow, $currentCol")
-    println("Moves: $moves")
+    println("Total unique locations visited: ${visitedLocations.size}")
 }
