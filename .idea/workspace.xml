@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day07/day7asolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/day7bsolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/day7input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/day6bsolve.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/day6asolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/day6asolve.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day07",
+    "last_opened_file_path": "/Users/kit/Documents/code/aoc2024/src/day06",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -58,11 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day06" />
       <recent name="$PROJECT_DIR$/src/day07" />
       <recent name="$PROJECT_DIR$/src/day03" />
       <recent name="$PROJECT_DIR$/src/day02" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/day01" />
     </key>
   </component>
   <component name="RunManager">

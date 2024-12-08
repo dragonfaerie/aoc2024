@@ -1,9 +1,8 @@
 import day06.day6parta
-import day07.day7parta
-import day07.day7partb
+import day06.day6partb
 
 
 fun main() {
-    day7parta()
-    day7partb()
+//    day6parta()
+    day6partb()
 }
