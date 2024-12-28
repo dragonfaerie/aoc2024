@@ -13,8 +13,11 @@ searching to figure out how to work with the regex but was ultimately successful
 get it to work.  Had some dumb moments doing it as always.<br><br>
 **Day 5**: Struggled hhharrrrrrrrrrrrddd, found some kinda related ideas in Java, swapped to that, got it to work.  Not 
 sure I completely understand.<br><br>
-**Day 6**: Failed today.  Managed to get part 1 working the next day though. <br><br>
-**Day 7**: Compared to day 6, this one was a "breeze".
+**Day 6**: Failed today.  Managed to get part 1 working the next day though.  And managed to finish part 2 later in the 
+evening.  Wow that one was hard<br><br>
+**Day 7**: Compared to day 6, this one was a "breeze".<br><br>
+**Day 8**: 
+
 
 
 

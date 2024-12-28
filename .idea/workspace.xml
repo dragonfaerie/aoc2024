@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day06/day6bsolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day8asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day8input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/day24input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/day24parta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/day24partb.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
     </list>
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -86,5 +91,16 @@
       <updated>1733071823871</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day08/day8asolve.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
